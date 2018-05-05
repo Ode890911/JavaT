@@ -18,9 +18,15 @@ public class SwapInt {
 		
 */		
 		//using *
-		 a= a*b;//50
+		/* a= a*b;//50
 		 b= a/b;//5
 		 a= a/b; //10
+*/		 
+		//using xor
+		
+		a= a^b;
+		b=a^b;
+		a=a^b;
 		 
 		
 		System.out.println(a);
